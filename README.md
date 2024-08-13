@@ -11,4 +11,10 @@ If you're more into images of your inventory, the tools inside [Imagery](Imagery
 Once you've completed that, if you want to make a wallpaper out of those images, you can use [create_wallpaper.py](Imagery/create_wallpaper.py) to create a wallpaper with your downloaded card images.
 
 # Inventory
-The age old question, "How can I inventory my cards?" These tools will allow you to do so. 
+The age old question, "How can I inventory my cards?" These tools will allow you to do so. With [cli_cards.py](Inventory/cli_cards.py), you can do it completely by hand. An example input would be:
+
+How the CLI is laid out: `Card_Name Set_Code Collector_Number Quantity Foil`
+
+CLI Example: `Evercoat Ursine blc 64 1 False`
+
+[interactive_cards.py](Inventory/interactive_cards.py) does similar, but walks through each section interactively. A full example is found in the [Inventory](Inventory/README.md) section.
