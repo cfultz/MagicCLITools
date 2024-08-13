@@ -15,6 +15,6 @@ The age old question, "How can I inventory my cards?" These tools will allow you
 
 How the CLI is laid out: `Card_Name Set_Code Collector_Number Quantity Foil`
 
-CLI Example: `Evercoat Ursine blc 64 1 False`
+CLI Example: `"Evercoat Ursine" blc 64 1 False`
 
 [interactive_cards.py](Inventory/interactive_cards.py) does similar, but walks through each section interactively. A full example is found in the [Inventory](Inventory/README.md) section.
