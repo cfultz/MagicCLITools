@@ -18,22 +18,22 @@ def add_card_to_csv(csv_path, card_name, set_code, collector_number, quantity, f
     
     print(f"Added {quantity}x {card_name} from set {set_code} with collector number {collector_number} (Foil: {foil}) to {csv_path}.")
 
-# Function to download the art crop image
-def download_art_crop_image(set_code, collector_number, card_name, foil):
+# Function to download the full card image
+def download_full_card_image(set_code, collector_number, card_name, foil):
     url = f"https://api.scryfall.com/cards/{set_code}/{collector_number}"
     response = requests.get(url)
     
     if response.status_code == 200:
         card_data = response.json()
         
-        # Determine the image URL (art_crop)
-        image_url = card_data['image_uris']['art_crop'] if 'image_uris' in card_data else None
+        # Determine the image URL (normal)
+        image_url = card_data['image_uris']['normal'] if 'image_uris' in card_data else None
         if not image_url and 'card_faces' in card_data:  # Check for double-sided cards
-            image_url = card_data['card_faces'][0]['image_uris']['art_crop']
+            image_url = card_data['card_faces'][0]['image_uris']['normal']
         
         if image_url:
-            # Create the art_crop directory if it doesn't exist
-            directory = 'art_crop'
+            # Create the full_card directory if it doesn't exist
+            directory = 'full_card'
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
@@ -47,9 +47,9 @@ def download_art_crop_image(set_code, collector_number, card_name, foil):
             with open(file_path, 'wb') as file:
                 file.write(image_response.content)
             
-            print(f"Downloaded art crop image for {card_name} (Set: {set_code}, Collector Number: {collector_number}, Foil: {foil})")
+            print(f"Downloaded full card image for {card_name} (Set: {set_code}, Collector Number: {collector_number}, Foil: {foil})")
         else:
-            print(f"No art crop image found for {card_name} (Set: {set_code}, Collector Number: {collector_number})")
+            print(f"No full card image found for {card_name} (Set: {set_code}, Collector Number: {collector_number})")
     else:
         print(f"Failed to fetch data for {card_name} (Set: {set_code}, Collector Number: {collector_number}) from Scryfall.")
 
@@ -85,8 +85,8 @@ def interactive_card_entry(csv_path):
         # Add the card to the CSV file
         add_card_to_csv(csv_path, card_name, set_code, collector_number, quantity, foil)
 
-        # Download the art crop image
-        download_art_crop_image(set_code, collector_number, card_name, foil)
+        # Download the full card image
+        download_full_card_image(set_code, collector_number, card_name, foil)
 
         # Sort the CSV file after each entry
         sort_csv_file(csv_path)
