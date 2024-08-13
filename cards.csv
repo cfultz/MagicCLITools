@@ -1,38 +1,48 @@
 Card Name,Set Code,Collector Number,Quantity,Foil
+"Flubs, The Fool",blc,356,1,True
+"Flubs, The Fool",blc,356,1,False
+Skemfar Shadowsage,sld,759,3,True
+Pollenbright Druid,sld,776,1,True
+Timberwatch Elf,sld,780,2,True
+Frilled Mystic,sld,786,1,True
+Coveted Jewel,sld,799,1,False
+The Scorpion God,sld,904,1,True
 "Linda, Kandarian Queen",sld,1355,1,True
-"Vraska, Golgari Queen",sld,1702,1,False
-"Vraska, Golgari Queen",sld,1702,1,True
+Felidar Guardian,sld,1487,1,False
+Peregrine Drake,sld,1488,1,False
+Serpent of Yawning Depths,sld,1489,1,False
+Scourage of Valkas,sld,1490,1,False
+Voracious Hydra,sld,1491,1,False
+Wall of Omens,sld,1518,1,False
+Circular Logic,sld,1519,1,False
+Scheming Symmentry,sld,1520,1,False
+Price of Progress,sld,1521,1,False
+Eternal Witness,sld,1522,1,False
+Sakashima of a Thousand Faces,sld,1541,1,False
+"Yargle, Glutton of Urborg",sld,1542,1,False
+"Krark, The Thumbless",sld,1543,1,False
+"Adrix and Nev, Twincasters",sld,1544,1,False
+Arcance Denial,sld,1545,1,False
+Nightscape Familiar,sld,1546,1,False
+Rain of Filth,sld,1547,1,False
+Simian Spirit Guide,sld,1548,1,False
+Prince of Thralls,sld,1549,1,False
+"Gonti, Lord of Luxury",sld,1566,1,False
+"Vilis, Broker of Blood",sld,1567,1,False
+"Anowon, the Ruin Thief",sld,1568,1,False
+"Grenzo, Dungeon Warden",sld,1569,1,False
+Reconnasissance,sld,1575,1,False
+"Jace, Wielder of Mysteries",sld,1576,1,False
+Black Market,sld,1577,1,False
+Dire Undercurrents,sld,1578,1,False
+"Obeka, Brute Chronolgoist",sld,1579,1,False
+Sorin Markov,sld,1698,1,False
+Sorin Markov,sld,1698,1,True
 "Huatli, Radiant Champion",sld,1699,1,False
 "Huatli, Radiant Champion",sld,1699,1,True
 "Kiora, Behemoth Beckoner",sld,1700,1,False
 "Kiora, Behemoth Beckoner",sld,1700,1,True
 "Tezzeret, Master of the Bridge",sld,1701,1,False
 "Tezzeret, Master of the Bridge",sld,1701,1,True
-Sorin Markov,sld,1698,1,False
-Sorin Markov,sld,1698,1,True
-"Flubs, The Fool",blc,356,1,True
-"Flubs, The Fool",blc,356,1,False
-Pollenbright Druid,sld,776,1,True
-Frilled Mystic,sld,786,1,True
-"Obeka, Brute Chronolgoist",sld,1579,1,False
-Dire Undercurrents,sld,1578,1,False
-Black Market,sld,1577,1,False
-"Jace, Wielder of Mysteries",sld,1576,1,False
-Reconnasissance,sld,1575,1,False
-"Yargle, Glutton of Urborg",sld,1542,1,False
-"Adrix and Nev, Twincasters",sld,1544,1,False
-Coveted Jewel,sld,799,1,False
-Sakashima of a Thousand Faces,sld,1541,1,False
-"Krark, The Thumbless",sld,1543,1,False
-Arcance Denial,sld,1545,1,False
-Nightscape Familiar,sld,1546,1,False
-Rain of Filth,sld,1547,1,False
-Simian Spirit Guide,sld,1548,1,False
-Prince of Thralls,sld,1549,1,False
-Felidar Guardian,sld,1487,1,False
-Peregrine Drake,sld,1488,1,False
-Serpent of Yawning Depths,sld,1489,1,False
-Scourage of Valkas,sld,1490,1,False
-Voracious Hydra,sld,1491,1,False
-The Scorpion God,sld,904,1,True
-"Vilis, Broker of Blood",sld,1567,1,False
+"Vraska, Golgari Queen",sld,1702,1,False
+"Vraska, Golgari Queen",sld,1702,1,True
