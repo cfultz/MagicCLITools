@@ -78,4 +78,4 @@ if __name__ == "__main__":
     
     # Start the download process
     download_images_from_csv(csv_path, output_folder)
-    print("Download completed.")
+    print("Download complete.")

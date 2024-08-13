@@ -40,7 +40,7 @@ def main():
                               "Each card entry should be specified in the following format: "
                               "Card_Name Set_Code Collector_Number Quantity Foil. "
                               "Foil should be 'True' or 'False' indicating if the card is foil or not. "
-                              "This option can be used multiple times to add multiple cards in one command."))
+                              "This option can be used multiple times to add multiple cards in one command. "))
 
     args = parser.parse_args()
 
